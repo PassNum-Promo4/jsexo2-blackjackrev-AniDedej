@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Game1</title>
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+  <body class="container d-flex">
+    <div class="row bg-secondary container">
+      <label class="col-12" for="user_input_number"> Entrée votre numéro !</label>
+      <input class="col-12" id="user_input_number" type="number" name="user_input_number" value="" min="1" max="10">
+      <input class="col-12 btn btn-block btn-info" id="validez" type="button" name="validez" value="validez" onclick="result()">
+      <p class="col-12" id="user_number"></p>
+      <p class="col-12" id="random_number"></p>
+      <p class="col-12" id="resultat"></p>
+    </div>
+
+    <script type="text/javascript" src="game_scripts.js">
+    </script>
+  </body>
+</html>
